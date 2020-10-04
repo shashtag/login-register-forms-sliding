@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/frontend/css/modal.min.css">
+    <script src="https://kit.fontawesome.com/966d44bd01.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    
+    <div class="hero">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              
+              
+              <li class="nav-item ml-3" >
+                <a class="nav-link btn btn-secondary btn-login sign-in-btn d-none d-lg-inline-block" data-toggle="modal" data-target="#exampleModalCenter" href="#">Login</a>
+              </li>
+              <li class="nav-item ml-3">
+                <a class="nav-link btn btn-secondary btn-signup sign-up-btn d-none d-lg-inline-block" data-toggle="modal" data-target="#exampleModalCenter" href="#">Register</a>
+              </li>
+              <li class="nav-item " >
+                <a class="nav-link   sign-in-btn d-lg-none " data-toggle="modal" data-target="#exampleModalCenter" href="#">Login</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link   sign-up-btn d-lg-none " data-toggle="modal" data-target="#exampleModalCenter" href="#">Register</a>
+              </li>
+            </ul>
+        </div>
+        
+      </nav>
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" >
+        <div class="modal-dialog modal-dialog-centered modal-lg" >
+          <div class="modal-content">
+            
+            <div class="modal-body p-0 ">
+              
+              <button type="button" class="close" data-dismiss="modal" >&times;</span>
+              </button>
+            
+              <div class="container-fluid ">
+                <div class="forms-container ">
+                  <div class="signin-signup">
+                    <form action="#" class="sign-in-form">
+                      <h2 class="title">Sign in</h2>
+                      <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                      </div>
+                      <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                      </div>
+                      <a href="/frontend/dashboard.html">
+                        <input type="submit" value="Login" class="btn btn-primary solid"  />
+                      </a>
+                      
+                      <p class="social-text">Or Sign in with social platforms</p>
+                      <div class="social-media">
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </div>
+                    </form>
+                    <form action="#" class="sign-up-form">
+                      <h2 class="title">Sign up</h2>
+                      <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                      </div>
+                      <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" />
+                      </div>
+                      <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                      </div>
+                      <input type="submit" class="btn btn-primary" value="Sign up" />
+                      <p class="social-text">Or Sign up with social platforms</p>
+                      <div class="social-media">
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+          
+                <div class="panels-container">
+                  <div class="panel left-panel">
+                    <div class="content">
+                      <h3>Hello, Friend!</h3>
+                      <p>
+                        Enter your details to get started.
+                      </p>
+                      <button class="btn transparent sign-up-btn" >
+                        Sign up
+                      </button>
+                    </div>
+                    <img src="img/log.svg" class="image" alt="" />
+                  </div>
+                  <div class="panel right-panel">
+                    <div class="content">
+                      <h3>Welcome back!</h3>
+                      <p>
+                        Log in with you account and get rocking.
+                      </p>
+                      <button class="btn transparent sign-in-btn" >
+                        Sign in
+                      </button>
+                    </div>
+                    <img src="img/register.svg" class="image" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+          
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+    
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>
